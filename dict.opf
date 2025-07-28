@@ -1,0 +1,19 @@
+<package unique-identifier="uid">
+  <metadata>
+    <dc:title>English Custom Dictionary</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="uid">dictionary-en</dc:identifier>
+
+    <!-- REQUIRED for Kindle dictionary recognition -->
+    <DictionaryInLanguage>en</DictionaryInLanguage>
+    <DictionaryOutLanguage>en</DictionaryOutLanguage>
+  </metadata>
+
+  <manifest>
+    <item id="content" href="dict.html" media-type="application/xhtml+xml"/>
+  </manifest>
+
+  <spine>
+    <itemref idref="content"/>
+  </spine>
+</package>
